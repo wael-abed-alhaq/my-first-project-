@@ -25,7 +25,6 @@ process(digital_in)
   end process;
 --lED_output<='1' when digital_in='0' -- turn on the light 
   --              else '1';            -- turn off the light 
-  ---hgggyvhvm
 end architecture;
 
 
