@@ -23,7 +23,7 @@ process(digital_in)
      end if;
 	 lED_output<= lED_output_varible;
   end process;
---lED_output<='1' when digital_in='0' -- turn on the light 
+--lED_output<='1' when digital_in='0' -- turn on the light     
   --              else '1';            -- turn off the light 
 end architecture;
 
